@@ -17,8 +17,7 @@ jobs:
           uname -a
           date
 
-
-     - name: Lister les fichiers avant
+      - name: Lister les fichiers avant
         run: ls -la
 
       - name: Récupérer le code
